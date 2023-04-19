@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@200;400;500;700;800&display=swap');
+*{
+	box-sizing: border-box;
+	font-family: 'Bitter', serif;
+}
+body{
+	background-color: cornflowerblue;
+}
+h1{
+	font-size: 60px;
+	color: ghostwhite;
+	text-align: center;
+}
+.bloc-white{
+	padding: 15px;
+	background-color: ghostwhite;
+	border-radius: 5px;
+	margin-left:auto;
+	margin-right: auto;
+}
+/************************ ARTICLE ******************************/
+article{
+	width: 60%;
+	margin-bottom: 30px;
+}
+article h3{
+	font-size: 40px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+article h5{
+	margin-top: 0px;
+}
+#nav-index{
+	width: 200px;
+	position: fixed;
+	top: 200px;
+	left: 50px;
+}
+/**********************LOGIN**************************/
+#login{
+	width: fit-content;
+}
+#login input{
+	margin-bottom: 10px;
+}
+/*******************ADMIN*****************************/
+
+#page-admin{
+	display: flex;
+	width: 100%;
+	justify-content: space-evenly;
+}
+#page-admin .bloc-white{
+	margin: 0px;
+}
+#list-article{
+	display:block;
+	width: fit-content;
+	height: fit-content;
+}
+
+#list-article td{
+	text-align: center;
+	border: 2px solid lightgray;
+}
+#admin{
+	display:block;
+	width: 60%;
+}
+#admin h2{
+	text-align: center;
+}
+#admin form{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#admin label{
+	display: inline-block;
+	vertical-align: top;
+	text-align: right;
+	width: 20%;
+}
+#admin input, #admin textarea{
+	margin-bottom: 20px;
+	width: 75%;
+}
+#admin input[type=submit]{
+	display: block;
+	margin-left: 20%;
+}
+#admin .logout{
+	width: 30%;
+	background-color: palevioletred;
+}
